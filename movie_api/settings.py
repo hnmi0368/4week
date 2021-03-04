@@ -128,3 +128,6 @@ GPAPH_MODELS = {
 	'all_applications': True,
 	'group_model': True,
 }
+import os
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
