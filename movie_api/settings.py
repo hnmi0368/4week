@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'movies.apps.MoviesConfig',
+    'drf_yasg',
+    'django_extensions',
 
 ]
 
@@ -121,3 +123,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+GPAPH_MODELS = {
+	'all_applications': True,
+	'group_model': True,
+}
